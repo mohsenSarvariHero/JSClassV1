@@ -111,35 +111,35 @@
 //arrays 
 /* */
 //const numbers = new Array(1,2,3,4,5);
-const numbers = [1,2,3,4,5]
-console.log(numbers)
-// console.log(typeof undefined)
-const fruits = ['apple',2,true,'oranges'];
-// fruits = "fdf"
-console.log(fruits)
-console.log(fruits[0])
-fruits[3] = "ad"
-console.log(fruits)
+// const numbers = [1,2,3,4,5]
+// console.log(numbers)
+// // console.log(typeof undefined)
+// const fruits = ['apple',2,true,'oranges'];
+// // fruits = "fdf"
+// console.log(fruits)
+// console.log(fruits[0])
+// fruits[3] = "ad"
+// console.log(fruits)
 
-fruits[4]= 'grapes';
-console.log(fruits)
-fruits.push("mangose");
-console.log(fruits)
+// fruits[4]= 'grapes';
+// console.log(fruits)
+// fruits.push("mangose");
+// console.log(fruits)
 
-fruits.unshift("banana");
-console.log(fruits)
+// fruits.unshift("banana");
+// console.log(fruits)
 
-fruits.pop();
-console.log(fruits)
+// fruits.pop();
+// console.log(fruits)
 
-console.log(Array.isArray(fruits) );
+// console.log(Array.isArray(fruits) );
 
-console.log(Array.isArray('hello') );
-const fruit2 = ['apple',2,"pear",'oranges'];
+// console.log(Array.isArray('hello') );
+// const fruit2 = ['apple',2,"pear",'oranges'];
 
-console.log(fruit2[3])
-console.log(fruit2.indexOf('oranges'))
-console.log(fruit2[3])
+// console.log(fruit2[3])
+// console.log(fruit2.indexOf('oranges'))
+// console.log(fruit2[3])
 //console.log(fruits.indexOf('apple'));
 
 
@@ -149,26 +149,26 @@ console.log(fruit2[3])
 
 
 // //objects
-const person = {
-    firstName : "mohsen",
-    lastName : 'sarvari',
-    age : 30,
-    hubby : ['music','movie'],
-    address: {
-        street:"50 st tehran",
-        city: "tehran",
-        phone : "0920251"
-    }
-}
-//alert(person);
+// const person = {
+//     firstName : "mohsen",
+//     lastName : 'sarvari',
+//     age : 30,
+//     hubby : ['music','movie'],
+//     address: {
+//         street:"50 st tehran",
+//         city: "tehran",
+//         phone : "0920251"
+//     }
+// }
+// //alert(person);
 
-console.log(person);
+// console.log(person);
 
-console.log(person.firstName, person.lastName);
+// console.log(person.firstName, person.lastName);
 
-console.log(person.hubby[1]);
+// console.log(person.hubby[1]);
 
-console.log(person.address.city);
+// console.log(person.address.city);
 
 // console.log(person.address.city);
 
@@ -250,19 +250,19 @@ console.log(JSON.parse(JSONtodo))
 // let email1 = "mohsenesarvari1379@gmail.com";
 // moh...@gmail.com
 
-input : 
-const obj1 = {
-    name : "mohsen",
-    lname : "sarvari",
-    age : 20
-}
+// input : 
+// const obj1 = {
+//     name : "mohsen",
+//     lname : "sarvari",
+//     age : 20
+// }
 
-output : 
-const newObj = {
-    mohsen : "name",
-    sarvari : "lname",
-    20 : "age"
-}
+// output : 
+// const newObj = {
+//     mohsen : "name",
+//     sarvari : "lname",
+//     20 : "age"
+// }
 
 // 4. **Loops & Conditions:** 
 //      - add [80,60] to numbers 
