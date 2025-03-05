@@ -3,16 +3,19 @@
 
 
 //if
-let grade = 12
+let grade = 18;
 let result;
-if(grade < 10 ){
+
+if (grade < 10) {
     result = "fail";
-} else if (11 < grade < 15 ){
+} else if (grade > 11 && grade < 15) {
     result = "medium";
-}else{
+} else {
     result = "accept";
 }
-console.log(result)
+
+console.log(result);
+
 
 console.log("hello")
 console.log("hello")
