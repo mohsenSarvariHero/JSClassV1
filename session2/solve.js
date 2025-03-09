@@ -15,14 +15,14 @@ console.log("solve")
 //     console.log("negative")
 // }
 
-// document.getElementById('submit').addEventListener('click',(e)=>{
-//     e.preventDefault()
-//     let inputElement = document.getElementById('input2');
-//     let inputValue = inputElement.value;
-//     let showElement= document.getElementsByClassName('show')[0];
-//     showElement.innerHTML = inputValue 
-//     inputElement.value = ""
-// })
+document.getElementById('submit').addEventListener('click',(e)=>{
+    e.preventDefault()
+    let inputElement = document.getElementById('input2');
+    let inputValue = inputElement.value;
+    let showElement= document.getElementsByClassName('show')[0];
+    showElement.innerHTML = inputValue 
+    inputElement.value = ""
+})
     
 
 // 2. While Loop:

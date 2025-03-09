@@ -82,21 +82,21 @@ const obj1 = {
 // const keys = Object.keys(obj1);
 // const values = Object.values(obj1);
 // console.log(Object.entries(obj1))
-const newObjs = {}
+// const newObjs = {}
 
-newObjs[obj1["name"]] = "name"
-console.log(newObjs)
-// obj1["name"] = "reza"
-// obj1["email"] = "reza@124"
-console.log(obj1)
-newObjs.name = "ali"
+// newObjs[obj1["name"]] = "name"
+// console.log(newObjs)
+// // obj1["name"] = "reza"
+// // obj1["email"] = "reza@124"
+// console.log(obj1)
+// newObjs.name = "ali"
 
-for (let key in obj1){
-    newObjs[obj1[key]] = key
-}
-console.log(newObjs)
+// for (let key in obj1){
+//     newObjs[obj1[key]] = key
+// }
+// console.log(newObjs)
 
-// delete obj1.age;
+// // delete obj1.age;
  
 // const newObj = {
 //     mohsen : "name",
@@ -123,30 +123,36 @@ console.log(newObjs)
 //     console.log(Array.isArray(numbers2[key]))
 // }
 
-// const str = "mohsen nan  mohsen wedaj  efoijseo  654161  mohsen."
+
 
 // output : mohsen repeated : 3
 
 // const indexWord = str.indexOf("mohsen");
 // // const lengthWord = "mohsen".length;
-// console.log(str.indexOf("mohsen",indexWord + lengthWord))
+// // console.log(str.indexOf("mohsen",indexWord + lengthWord))
 // console.log(lengthWord)
 // console.log(indexWord)
 
-// const word = "mohsen";
-// const lengthWord = word.length;
-// let count = 0;
-// let offset = 0;
-// let position = str.indexOf(word,offset);
+const str = "Mohsen nan  mohsen wedaj  efoijseo  654161  mohsen."
+function name(){
+    
+}
+const word = "mohsen";
+const lengthWord = word.length;
+let count = 0;
+let offset = 0;
+let position = str.toLowerCase().indexOf(word,offset);
+console.log(lengthWord)
+console.log(position)
+while(position != -1){
 
-// while(position !== -1){
-
-//     count = count + 1;
-//     offset = position + lengthWord;
-//     position = str.indexOf(word,offset);
-
-// }
-// console.log(`${word} occured in sentence is : ${count}`)
+    count = count + 1;
+    offset = position + lengthWord;
+    console.log(offset)
+    position = str.indexOf(word,offset);
+    console.log(position)
+}
+console.log(`${word} occured in sentence is : ${count}`)
 
 
 //
@@ -186,13 +192,13 @@ console.log(newObjs)
 // let array5 = [...array1,...array2,...array3,...array4] ;
 // console.log(array5)
 
-// let numberst = []
-// for(let i of array5){
-//     if(typeof i === "number"){
-//         numberst.push(i)
-//     }
-// }
-// console.log(numberst)
+let numberst = []
+for(let i of array5){
+    if(typeof i === "number"){
+        numberst.push(i)
+    }
+}
+console.log(numberst)
 
 //  input:
 //        fruits = ['apple' , 111 , 222 , 333 , 'orange' , 'grapes' , 'watermelon']
