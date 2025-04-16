@@ -22,7 +22,6 @@ body{
 /*}*/
   
 .card-list .card-item .card-link{
-    user-select: none;
     width: 350px;
     display: block;
     background: #fff;
@@ -31,14 +30,14 @@ body{
     text-decoration: none;
     border: 2px solid transparent;
     box-shadow: 0 10px 10px rgba(0,0,0,0.05);
-    transition: 0.2s ease;
+    transition: 0.2s ;
 }
 .card-list .card-item .card-link:hover{
     border-color: #5372F0;
 }
 .card-list .card-link .card-image{
     width: 100%;
-    aspect-ratio: 16/9;
+    aspect-ratio: 18/9;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -77,7 +76,7 @@ body{
 /*js */
 
 .card-wrapper{
-    max-width: 1100px;
+    max-width: 1500px;
     margin: 0 60px 35px;
     padding: 20px 10px;
     overflow: hidden;
@@ -91,10 +90,13 @@ body{
 .card-wrapper .swiper-pagination-bullet-active{
     opacity: 1;
 }
-.card-wrapper .swiper-slide-button{
+/* .card-wrapper .swiper-slide-button{
     color: #5372F0;
     margin: -35px;
-}
+} */
 .card-list .card-item .card-link:active{
     cursor: grabbing;
+}
+.swiper-button-prev,.swiper-button-next{
+    background-color: aqua;
 }

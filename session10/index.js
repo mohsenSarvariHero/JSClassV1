@@ -23,8 +23,11 @@
         768:{
             slidesPerView:2
         },
-        1024:{
+        980:{
             slidesPerView:3
+        },
+        1024:{
+            slidesPerView:4
         },
     }
 
