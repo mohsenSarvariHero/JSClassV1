@@ -6,21 +6,47 @@
     <title>Document</title>
      <link rel="stylesheet" href="index.css" />
 </head>
-<body>
+<body >
+
     <div class="hero">
         <h1>Text To Speech <span>Converter</span> </h1>
         <textarea placeholder="write anything here ..."></textarea>
         <div class="row">
-            <select></select>
+            <select>
+                <!-- <option></option> -->
+            </select>
             <button>Listen</button>
         </div>
     </div>
     <hr>
+
+<!-- 
+    <audio id="myVoice" src="myvoice.mp3"></audio>
+<button onclick="document.getElementById('myVoice').play()">پخش صدا</button> -->
+
+
+    <div>
+        <div id="myDIV" class="header">
+            <h2 style="margin:5px">My To Do List</h2>
+            <input type="text" id="myInput" placeholder="Title...">
+            <span onclick="newElement()" class="addBtn">Add</span>
+          </div>
+          
+          <ul id="myUL">
+            <li>Hit the gym</li>
+            <li class="checked">Pay bills</li>
+            <li>Meet George</li>
+            <li>Buy eggs</li>
+            <li>Read a book</li>
+            <li>Organize office</li>
+          </ul>
+          
+    </div>
     <!-- <input type="checkbox" style="background-color: antiquewhite;" > -->
-    <label class="custom-checkbox">
+    <!-- <label class="custom-checkbox">
         <input type="checkbox">
         <span></span>
-      </label>
+      </label> -->
     <script src="index.js"></script>
 
 

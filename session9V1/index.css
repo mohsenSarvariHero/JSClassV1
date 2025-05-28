@@ -14,13 +14,23 @@ body{
     overflow: hidden;
 }
 #display{
-    width: 100%;
+    /* width: 100%;
     padding: 20px;
     font-size: 5rem;
     text-align: left;
-    border: none;
+    border: none; */
     background-color: hsl(0,0%, 20% );
     color: aliceblue;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    font-size: 3rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    overflow-y: auto;
+    
+
 }
 
 
